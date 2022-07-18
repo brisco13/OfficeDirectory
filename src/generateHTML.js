@@ -6,7 +6,6 @@ const pagePath = path.join(page, "team.html");
 
 
 let cards = [];
-console.log("attempt path: " + page)
 let boiler = fs.readFileSync(path.resolve(__dirname,'htmlTempStart.html'),"utf8");
 let caboose = fs.readFileSync(path.resolve(__dirname,'htmlTempEnd.html'),"utf8");
 
@@ -64,7 +63,7 @@ function engCard(emp) {
 //make a manager card
 function mgrCard(emp) {
     let newCard = fs.readFileSync(path.resolve(__dirname,'managerTemp.html'),"utf8");
-    newCard = replaceDummys("name", newCard, emp.getID());
+    newCard = replaceDummys("name", newCard, emp.getName());
     newCard = replaceDummys("id", newCard, emp.getID());
     newCard = replaceDummys("email", newCard, emp.getEmail());
     newCard = replaceDummys("role", newCard, emp.getRole());
