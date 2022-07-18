@@ -12,8 +12,6 @@ This is a Node.JS application that is run from the command line to generate an o
 
 [Features](#features)
 
-[Credits](#credits)
-
 [Contact Me](#contact-me)
 
 ## License: 
@@ -24,11 +22,15 @@ This project is licensed under the MIT License
 
 ## Features: 
 
-(list Features here - this is a great place for screenshots!)
+This application allows the user to create a directory of employees with information readily available such as clickable git hub profile links for Engineer staff and the school interns are currently attending. 
+The application requires an "npm install" to be completed prior to use, then can be launched from the command line. This application leverages the "Jest" and "Inquirer" packages. 
+The appication can be launched by navigating to the root folder then entering "node index.js"
+The below screenshot shows the application passing a suite of tests and example inputs.
+![picture1](./pictures/picture1.png "Picture1")
+The below screenshot shows the output from the above inputs:
+![picture\2](./pictures/picture2.png "Picture2")
 
-## Credits: 
-
-(list Credits here)
+Additionally, the below video walkthrough demonstrates the application passing all tests and a walkthrough of the application. 
 
 ## Contact Me: 
 
