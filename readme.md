@@ -30,7 +30,9 @@ The below screenshot shows the application passing a suite of tests and example 
 The below screenshot shows the output from the above inputs:
 ![picture\2](./pictures/picture2.png "Picture2")
 
-Additionally, the below video walkthrough demonstrates the application passing all tests and a walkthrough of the application. 
+Additionally, the below video walkthrough demonstrates the application passing all tests and a walkthrough of the application.
+
+https://user-images.githubusercontent.com/103338620/179449609-58524e7e-ccb0-4b1b-a570-9f020665c175.mp4 
 
 ## Contact Me: 
 
